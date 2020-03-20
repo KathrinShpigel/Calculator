@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap" rel="stylesheet">
+	<link href="fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet">
+	
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<title>Project 3: Calculator</title>
+</head>
+<body>
+	<header class="bg-warning" id="Home">
+		<div class="container">
+			<div class="row">
+			    <div class="col">
+					<h1 class="text-center text-black-50">Простой калькулятор на <span class="font-weight-bold">JavaScript</span></h1>
+			    </div>
+			   </div>
+			</div>
+		</div>
+	</header>
+	
+	<!----------------------------------------------------------------->
+	<!-- CALCULATOR -->
+	<!----------------------------------------------------------------->
+	
+	<section class="calculator bg-gradient-warning">
+		<div class="container">			
+			<div class="row align-items-center">
+				<div class="col">
+					<div class="calculator-form align-middle text-center">
+						<form>
+							<div class="bg-light display rounded border border-dark w-auto p-3 h-auto d-inline-block">
+								<div class="input-group input-group-lg">
+									<div class="input-group-prepend">
+										<span class="input-group-text font-weight-bold" id="inputGroup-sizing-lg">Результат:</span>
+									</div>
+									<input id="display" type="text" class="calculator-display form-control font-weight-bold text-right" disabled>
+								</div>
+								
+								<div class="button-group top-button-group">
+									<button type="button" class="calculator-key calculator-clear btn btn-lg btn-outline-warning font-weight-bold" value="C">С</button>
+									<button type="button" class="calculator-key calculator-znak btn btn-lg btn-outline-warning font-weight-bold" value="&plusmn;">+/-</button>
+									<button type="button" class="calculator-key calculator-sqrt btn btn-lg btn-outline-warning font-weight-bold" value="&radic;">Корень</button>
+									<button type="button" class="calculator-key calculator-space btn btn-lg btn-outline-warning font-weight-bold" value="00-0">00-0</button>
+								</div>
+								<div class="button-group">
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="7">7</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="8">8</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="9">9</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="/">/</button>
+								</div>
+								<div class="button-group">
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="4">4</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="5">5</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="6">6</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="*">*</button>
+								</div>
+								<div class="button-group">
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="1">1</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="2">2</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="3">3</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="-">-</button>
+								</div>
+								<div class="button-group">
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="0">0</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value=".">.</button>
+									<button type="button" class="calculator-key calculator-btn btn btn-lg btn-outline-warning font-weight-bold" value="+">+</button>
+									<button type="button" class="calculator-key calculator-key--equal btn btn-lg btn-warning font-weight-bold" value="=">=</button>
+								</div>
+							</div>
+						<form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<footer class="footer bg-warning">
+		<div class="container">
+			<div class="row">	
+				<div class="col">
+					<ul class="nav justify-content-start">
+						<li class="nav-item">
+							<a class="text-decoration-none text-reset nav-link" href="https://kathrinshpigel.github.io/"><p class="text-black-50">About the author</p></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col footer-social">
+					<div class="text-right footer-social_items">
+						<a href="https://www.facebook.com/ekaterina.shpigel" class="text-decoration-none text-reset social-icon"><i class="text-black-50 fa fa-facebook" title="Facebook"></i></a>
+						<a href="https://github.com/KathrinShpigel" class="text-decoration-none text-reset social-icon"><i class="text-black-50 fa fa-github" title="GitHub"></i></a>
+						<a href="https://twitter.com/90Kathrin?s=08" class="text-decoration-none text-reset social-icon"><i class="text-black-50 fa fa-twitter" title="Twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!----------------------------------------------------------------->
+	<!-- JAVASCRIPT -->
+	<!----------------------------------------------------------------->
+	
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="jQuery 3.4.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

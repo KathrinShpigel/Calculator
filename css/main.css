@@ -1,0 +1,62 @@
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+
+.calculator {
+	padding-bottom: 40px !important;
+}
+
+.calculator .container{
+	height: 80vh;
+	padding-top: 20px;
+}
+
+.btn-lg {
+	width: 70px !important;
+	height: 70px !important;
+	margin: 7px;
+	margin-top: 0;
+}
+
+.button-group {
+	margin-top: 0;
+}
+
+.top-button-group {
+	margin-top: 15px;
+}
+
+.top-button-group .btn-lg {
+	height: 40px !important;
+	font-size: 0.9em;
+}
+
+.bg-gradient-warning {
+	background: rgb(251,200,63);
+	background: radial-gradient(circle, rgba(251,200,63,0.436367857689951) 31%, rgba(255,250,56,0.45597570082720584) 86%);
+}
+
+.nav-item a {
+	outline: none;
+}
+
+.nav-item a p:hover {
+	color: black !important;
+}
+
+.nav-item a p {
+	font-size: 2em;
+}
+
+.footer-social_items {
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+.social-icon {
+	margin-left: 20px;
+}
+
+.social-icon i:hover {
+	color: black !important;
+}
