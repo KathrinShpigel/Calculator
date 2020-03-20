@@ -41,7 +41,7 @@ $(document).ready(function () {
         calcDisplay.val(calcDisplay.val().substring(0, calcDisplay.val().length-1));
     });
 	
-    // Показывает результат на дисплэй
+    // Показывает результат на дисплей
     calcEqual.on('click', function () {
         calcDisplay.val(eval(calcDisplay.val()).toFixed(2));
     });
